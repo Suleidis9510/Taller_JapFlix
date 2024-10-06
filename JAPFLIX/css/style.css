@@ -1,0 +1,47 @@
+.img-card-fit {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.img-cont {
+  height: 200px;
+  overflow: hidden;
+  background-color: beige;
+}
+
+.card-content {
+  height: 150px;
+  overflow: auto;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+}
+
+.checked {
+  color: orange;
+}
+
+.offcanvas-top {
+  height: fit-content;
+}
+/* Estilo para las estrellas llenas */
+.fa-star.checked {
+  color: #ffd700; /* Amarillo para las estrellas llenas */
+}
+
+/* Estilo para la media estrella */
+.fa-star-half-alt.checked {
+  color: #ffd700; /* Amarillo para la media estrella */
+}
+
+/* Estilo para las estrellas vacías */
+.fa-star {
+  color: #ccc; /* Gris claro para las estrellas vacías */
+}
+.dropdown {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
